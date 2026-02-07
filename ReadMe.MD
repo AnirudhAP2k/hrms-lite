@@ -62,8 +62,8 @@ The goal of this project is to demonstrate end-to-end full-stack development ski
 
 ### Clone the repository
 ```bash
-git clone <repository-url>
-cd <project-root>
+git clone https://github.com/AnirudhAP2k/hrms-lite
+cd hrms-lite
 ```
 
 ### Backend Setup
@@ -75,14 +75,14 @@ Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-* Create a .env file in the backend directory:
+### Create a .env file in the backend directory:
 ```bash
 MONGODB_URL=<your-mongodb-atlas-url>
 DATABASE_NAME=hrms_lite
 CORS_ORIGINS=http://localhost:5173
 ```
 
-* Run the backend:
+### Run the backend:
 ```bash
 uvicorn app.main:app --reload
 ```
@@ -92,12 +92,12 @@ cd frontend
 npm install
 ```
 
-* Create a .env file in the frontend directory:
+### Create a .env file in the frontend directory:
 ```bash
 VITE_API_BASE_URL=http://localhost:8000
 ```
 
-* Run the frontend:
+### Run the frontend:
 ```bash
 npm run dev
 ```
