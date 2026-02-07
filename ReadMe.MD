@@ -101,3 +101,17 @@ VITE_API_BASE_URL=http://localhost:8000
 ```bash
 npm run dev
 ```
+
+---
+
+## Assumptions & Limitations
+
+* The application assumes a single admin user
+
+* No authentication or authorization is implemented
+
+* Leave management, payroll, and advanced HR features are kept out of scope
+
+* The system is designed for small-scale internal usage
+
+* Frontend styling is kept minimal
